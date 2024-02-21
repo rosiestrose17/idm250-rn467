@@ -1,0 +1,81 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Futura, "Trebuchet MS", Arial, sans-serif; /* Specify Futura font with fallbacks */
+            width: 90%;
+            margin: 0 auto;
+        }
+        
+ 
+/* Styling for the footer section */
+        footer {
+            background-color: black; /* Set background color to black */
+            padding: 20px 0; /* Add some padding */
+                  color: white; /* Set font color to white */
+   position: relative;
+    bottom: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 70px 20px;
+        }
+
+        .subscribe {
+            width: 60%;
+            float: left;
+            margin-right: 70px;
+        }
+
+        .subscribe h3 {
+            margin-top: 0;
+        }
+
+        .footer-columns {
+            width: 35%;
+            float: right;
+        }
+
+        .footer-columns:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .social-media,
+        .faq {
+            width: 50%;
+            float: left;
+        }
+
+        .social-media h3,
+        .faq h3 {
+            margin-top: 0;
+        }
+
+        .subscribe form {
+            display: flex;
+        }
+
+        .subscribe input[type="email"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .subscribe button {
+            padding: 10px 20px;
+            background-color: pink;
+            color: #fff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .subscribe button:hover {
+            background-color: #0056b3;
+        }
+  
