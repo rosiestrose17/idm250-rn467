@@ -1,17 +1,4 @@
 <?php get_header('404'); ?>
-<style>
-    @font-face {
-        font-family: 'Futura';
-        src: url('<?php echo get_template_directory_uri(); ?>/fonts/futura.woff2') format('woff2'),
-             url('<?php echo get_template_directory_uri(); ?>/fonts/futura.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    body, p, h1, a {
-        font-family: Futura, sans-serif;
-    }
-</style>
 <div class="bg-white">
   <div class="mx-auto w-full max-w-7xl px-6 pt-10 pb-16 sm:pb-24 lg:px-8">
     <div class="mx-auto mt-20 max-w-2xl text-center sm:mt-24">
