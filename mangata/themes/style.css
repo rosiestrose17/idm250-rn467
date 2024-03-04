@@ -233,4 +233,72 @@
         .subscribe button:hover {
             background-color: #0056b3;
         }
-  
+
+  .wp-block-pullquote {
+  background-color: rgba(242, 169, 188, 0.6);
+  padding: 20px;
+  width: 80%;
+  color: #FFFFFF;
+  font-family: 'Inria Serif', serif;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 0 80px rgba(242, 169, 188, 0.9); 
+}
+
+.wp-block-pullquote blockquote {
+  margin: 0;
+  font-style: italic; 
+}
+.wp-block-image img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+    vertical-align: bottom;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1.wp-block-heading,
+h2.wp-block-heading,
+h3.wp-block-heading,
+h4.wp-block-heading,
+h5.wp-block-heading,
+h6.wp-block-heading {
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+h1.wp-block-heading {
+ font-family: 'Great Vibes', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+h2.wp-block-heading {
+  text-transform: uppercase;
+  font-size: 2rem; 
+  font-weight: 600; 
+}
+h3.wp-block-heading {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 1.5rem; 
+  font-weight: 600; 
+  text-align: center;
+}
+h4.wp-block-heading {
+  text-align: center;  
+  color: #E19E9E;
+  font-size: 1.3rem; 
+  line-height: 30px;
+}
+h5.wp-block-heading {
+    text-align: center;
+    font-family: Inria Sans', sans-serif;
+      text-transform: uppercase;
+            font-size: 1.2rem;
+}  
+h6.wp-block-heading {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
