@@ -1,0 +1,1 @@
+    <figure class="wp-block-pullquote"><blockquote><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua."</p></blockquote></figure>
