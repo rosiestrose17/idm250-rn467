@@ -28,3 +28,21 @@ function theme_register_menus() {
     );
 }
 add_action( 'after_setup_theme', 'theme_register_menus' );
+function custom_wpbutton_shortcode( $atts, $content = null ) {
+    // Extract shortcode attributes
+    $atts = shortcode_atts(
+        array(
+            'link' => '#',
+            'color' => '#000',
+            'text' => 'Button',
+        ),
+        $atts,
+        'wpbutton'
+    );
+
+    // Build the button HTML
+    $button_html = '<a class="wpbutton" href="' . esc_url( $atts['link'] ) . '" style="background-color: ' . esc_attr( $atts['color'] ) . ';">' . esc_html( $atts['text'] ) . '</a>';
+
+    return $button_html;
+}
+add_shortcode( 'wpbutton', 'custom_wpbutton_shortcode' );
