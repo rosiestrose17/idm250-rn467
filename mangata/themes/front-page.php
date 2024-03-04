@@ -1,13 +1,4 @@
 <?php get_header(); ?>
-<style>
-  h1 {
-    /* Your CSS styles for the h1 element */
-    color: #333;
-    font-size: 36px;
-    font-weight: bold;
-    /* Add more styles as needed */
-  }
-</style>
 <div class="body-container">
 <h1 class="">
   <?php echo get_the_title(); ?>
