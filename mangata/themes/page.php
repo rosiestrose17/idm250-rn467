@@ -1,4 +1,5 @@
 <?php get_header(); ?>
-<?php get_template_part('video-embed'); ?>
-<?php get_template_part('title-image-component'); ?>
-<?php get_template_part('product-info-component');
+<?php get_template_part('component/video-embed'); ?>
+<?php get_template_part('component/title-image-component'); ?>
+<?php get_template_part('component/product-info-component');
+<?php get_footer(); ?>
