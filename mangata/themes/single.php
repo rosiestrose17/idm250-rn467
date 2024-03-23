@@ -24,9 +24,5 @@ echo '<p class="post-excerpt">' . get_the_excerpt() . '</p>';
   <?php
     echo get_the_content();
   ?>
-  <p class="link">This is a <a href="https://rosiestrose.com/idm250">link</a>.</p>
-<p class="bold">This text is <strong>bold</strong>.</p>
-<p class="italic">This text is italic.</p>
-<p class="underline">This text is <u>underlined</u>.</p>
 </div>
 <?php get_footer(); ?>
