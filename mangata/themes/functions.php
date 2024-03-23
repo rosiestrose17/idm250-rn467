@@ -7,19 +7,6 @@ require get_template_directory() . '/includes/setup.php';
  * Register custom post types
  */
 require get_template_directory() . '/includes/post-types.php';
-/**
- * Register custom taxonomies
- */
-require get_template_directory() . '/includes/taxonomies.php';
-/**
- * Advance Custom Fields (ACF) configuration
- */
-require get_template_directory() . '/includes/acf.php';
-/**
- * Custom Helper functions
- */
-require get_template_directory() . '/includes/helper.php';
-
 function theme_register_menus() {
     register_nav_menus(
         array(
@@ -39,8 +26,6 @@ function custom_wpbutton_shortcode( $atts, $content = null ) {
         $atts,
         'wpbutton'
     );
-
-    // Build the button HTML
     $button_html = '<a class="wpbutton" href="' . esc_url( $atts['link'] ) . '" style="background-color: ' . esc_attr( $atts['color'] ) . ';">' . esc_html( $atts['text'] ) . '</a>';
 
     return $button_html;
