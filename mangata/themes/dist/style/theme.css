@@ -1,0 +1,405 @@
+body {
+            margin: 0;
+            padding: 0;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: black; 
+            padding: 20px 0; 
+                  color: white; 
+   position: relative;
+    bottom: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .subscribe {
+            width: 60%;
+            float: left;
+            margin-right: 70px;
+        }
+
+        
+.subscribe h3 {
+            margin-top: 0;
+        }
+
+        .footer-columns {
+            width: 35%;
+            float: right;
+        }
+
+        .footer-columns:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .social-media,
+        .faq {
+            width: 50%;
+            float: left;
+        }
+
+        .social-media h3,
+        .faq h3 {
+            margin-top: 0;
+        }
+
+        .subscribe form {
+            display: flex;
+        }
+
+        .subscribe input[type="email"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .subscribe button {
+            padding: 10px 20px;
+            background-color: pink;
+            color: #fff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .subscribe button:hover {
+            background-color: #0056b3;
+        }
+
+h1.wp-block-heading {
+	font-family: 'Great Vibes', sans-serif;
+    font-size: 3rem;
+}
+	h3.wp-block-heading {
+    color: #888;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+	h2.wp-block-heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.wp-block-image.size-large img {
+    width: 100vw;
+    height: auto;
+    display: block; 
+}
+	.wp-block-button__link {
+		display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: pink;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 0 #ff3471;
+}
+	.wp-block-button__link:hover {
+    background-color: black;
+}
+	.wp-block-pullquote {
+		font-family: 'Great Vibes', sans-serif;
+		background-color: #FFFFFF;
+    padding: 20px;
+     max-width: 90%;
+    border-radius: 35px;
+    margin: 0 auto;
+    box-shadow: 0 0 80px rgba(242, 169, 188, 0.9);
+}
+.content p {
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+				.wp-block-pullquote p {
+    margin-bottom: 10px;
+				    font-size: 2rem;
+}
+.wp-block-columns {
+margin: 0 auto;
+	height: auto;
+	gap: 50px;
+}
+.wp-block-image.aligncenter {
+	
+    text-align: center;
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+	margin-top: -20px 
+}
+	.unordered-list ul {
+	
+    list-style-type: disc; 
+      padding-left: 1rem;
+      line-height: 30px;
+}
+.unordered-list li {
+		font-family: 'Inria Sans', sans-serif;
+    list-style-type: disc; 
+      font-size: 1.25rem;
+      padding-left: 1rem;
+margin: 12px 0;
+}
+.ordered-list {
+    font-family: 'Inria Sans', sans-serif;
+    list-style-type: disc; 
+      padding-left: 1rem;
+      line-height: 30px;
+}
+ .ordered-list li {
+        display: list-item;
+list-style: decimal;
+      font-size: 1.25rem;
+      padding-left: 1rem;
+margin: 12px 0;
+}
+	table
+  {
+        width: 100%;
+        font-size: 1rem;
+        border-collapse: collapse;
+        margin-bottom: 30px; 
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd; 
+    }
+
+    tr:nth-child(even) {
+        background-color: pink; 
+    }
+
+
+    td:first-child {
+        width: 30%;
+    }
+
+    @media (max-width: 768px) {
+        td, th {
+            font-size: 14px; 
+        }
+    }
+h5.wp-block-heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+h4.wp-block-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+h6.wp-block-heading {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.link {
+    text-align: center;
+    color: pink;
+        text-decoration: underline; 
+}
+
+.bold {
+       text-align: center;
+    font-weight: bold; 
+}
+
+.italic {
+       text-align: center;
+    font-style: italic; 
+}
+
+.underline {
+       text-align: center;
+    text-decoration: underline; }
+	.button-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+.read-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid pink;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more-button:hover {
+    background-color: pink;
+    color: white;
+}
+.featured-image {
+    position: relative;
+    border: 5px solid pink;
+    border-radius: 100px;
+    overflow: hidden;
+	    width: 70%;
+	  margin: 0 auto;
+    margin-bottom: 30px; 
+}
+
+.featured-image img {
+    display: block;
+    height: auto;
+}
+.ribbon-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.ribbon-container img {
+    display: block;
+    margin: 0 auto;
+    width: 100px; 
+    height: auto;
+}
+
+.excerpt {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.listing-excerpt {
+    text-align: center; 
+	    line-height: 1.6;
+	margin-bottom: 20px;
+	color: #333;
+	font-size: 1.2rem;
+}
+.listing-title {
+	font-family: 'Great Vibes', sans-serif;
+    font-size: 3rem;
+	text-align: center; }
+.back-button {
+    padding: 10px 20px; 
+    background-color: pink; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+	margin-bottom: 30px;
+}
+
+.back-button:hover {
+    background-color: hotpink; 
+}
+.wp-block-video.aligncenter {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 10px; 
+}
+.wp-block-columns {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.wp-block-image.aligncenter.size-full img {
+    width: 100%;
+	 max-width: 100%;
+	 border: 3px solid pink; 
+		border-radius: 10px;
+}
+
+.wp-block-column {
+    flex: 1;
+}
+	.wp-block-column.is-vertically-aligned-center {
+    width: 90%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.wp-block-image.size-full img {
+    width: 100%; 
+	 max-width: 75%; 
+	 margin: 0 auto;
+	 border: 3px solid pink; 
+		border-radius: 10px;
+}
+
+.wp-element-caption {
+    text-align: center;
+    font-size: 1.2rem;
+	color: gray;
+}
+.wp-block-gallery.has-nested-images.columns-default.is-cropped {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	gap: 5px; 
+	width: 90%;
+    margin: 0 auto;
+}
+
+.wp-block-gallery.has-nested-images.columns-default.is-cropped .wp-block-image {
+    flex-basis: calc(33.33% - 10px); 
+}
+
+@media (max-width: 768px) {
+    .wp-block-gallery.has-nested-images.columns-default.is-cropped .wp-block-image {
+        flex-basis: calc(50% - 10px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1.wp-block-heading {
+        font-size: 2.5rem; 
+    }
+
+    h2.wp-block-heading {
+        font-size: 1.75rem; 
+    }
+
+    h3.wp-block-heading {
+        font-size: 1.25rem; 
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .featured-image {
+        width: 95%;
+		}
+			h1.wp-block-heading {
+        font-size: 2rem; 
+    }
+    h2.wp-block-heading {
+        font-size: 1.5rem; 
+    }
+
+    h3.wp-block-heading {
+        font-size: 1rem; 
+    }
+
+    .content p {
+        font-size: 0.875rem; 
+    }
+}
