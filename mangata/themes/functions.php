@@ -15,19 +15,16 @@ function theme_register_menus() {
     );
 }
 add_action( 'after_setup_theme', 'theme_register_menus' );
-function custom_wpbutton_shortcode( $atts, $content = null ) {
-    // Extract shortcode attributes
-    $atts = shortcode_atts(
-        array(
-            'link' => '#',
-            'color' => '#000',
-            'text' => 'Button',
-        ),
-        $atts,
-        'wpbutton'
-    );
-    $button_html = '<a class="wpbutton" href="' . esc_url( $atts['link'] ) . '" style="background-color: ' . esc_attr( $atts['color'] ) . ';">' . esc_html( $atts['text'] ) . '</a>';
 
-    return $button_html;
+<?php
+
+function my_theme_enqueue_scripts() {
+    // Enqueue stylesheet
+    wp_enqueue_style( 'my-theme-style', get_template_directory_uri() . '/dist/style/theme.css', array(), '1.0' );
+
+    // Enqueue JavaScript file
+    wp_enqueue_script( 'my-theme-script', get_template_directory_uri() . '/dist/scripts/main.js', array(), '1.0', true );
 }
-add_shortcode( 'wpbutton', 'custom_wpbutton_shortcode' );
+
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_scripts' );
+?>
