@@ -16,7 +16,6 @@ function theme_register_menus() {
 }
 add_action( 'after_setup_theme', 'theme_register_menus' );
 
-<?php
 
 function my_theme_enqueue_scripts() {
     // Enqueue stylesheet
